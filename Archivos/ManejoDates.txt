@@ -1,0 +1,1 @@
+this.statement.setDate(4, new java.sql.Date(cita.getFecha().getTime()));
