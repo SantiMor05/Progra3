@@ -1,0 +1,6 @@
+C:\SANTI\UNIVERSIDAD\6to Ciclo\Proga 3\Labs\Lab7\25-1\SoftVideojuegos\SoftModel\bin\Debug\SoftModel.dll
+C:\SANTI\UNIVERSIDAD\6to Ciclo\Proga 3\Labs\Lab7\25-1\SoftVideojuegos\SoftModel\bin\Debug\SoftModel.pdb
+C:\SANTI\UNIVERSIDAD\6to Ciclo\Proga 3\Labs\Lab7\25-1\SoftVideojuegos\SoftModel\obj\Debug\SoftModel.csproj.AssemblyReference.cache
+C:\SANTI\UNIVERSIDAD\6to Ciclo\Proga 3\Labs\Lab7\25-1\SoftVideojuegos\SoftModel\obj\Debug\SoftModel.csproj.CoreCompileInputs.cache
+C:\SANTI\UNIVERSIDAD\6to Ciclo\Proga 3\Labs\Lab7\25-1\SoftVideojuegos\SoftModel\obj\Debug\SoftModel.dll
+C:\SANTI\UNIVERSIDAD\6to Ciclo\Proga 3\Labs\Lab7\25-1\SoftVideojuegos\SoftModel\obj\Debug\SoftModel.pdb
