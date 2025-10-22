@@ -1,0 +1,6 @@
+C:\SANTI\UNIVERSIDAD\6to Ciclo\TransitSoft\TransitSoftDBManager\bin\Debug\TransitSoftDBManager.dll
+C:\SANTI\UNIVERSIDAD\6to Ciclo\TransitSoft\TransitSoftDBManager\bin\Debug\TransitSoftDBManager.pdb
+C:\SANTI\UNIVERSIDAD\6to Ciclo\TransitSoft\TransitSoftDBManager\obj\Debug\TransitSoftDBManager.csproj.AssemblyReference.cache
+C:\SANTI\UNIVERSIDAD\6to Ciclo\TransitSoft\TransitSoftDBManager\obj\Debug\TransitSoftDBManager.csproj.CoreCompileInputs.cache
+C:\SANTI\UNIVERSIDAD\6to Ciclo\TransitSoft\TransitSoftDBManager\obj\Debug\TransitSoftDBManager.dll
+C:\SANTI\UNIVERSIDAD\6to Ciclo\TransitSoft\TransitSoftDBManager\obj\Debug\TransitSoftDBManager.pdb

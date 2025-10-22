@@ -1,0 +1,6 @@
+C:\SANTI\UNIVERSIDAD\TransitSoft\TransitSoftModel\bin\Debug\TransitSoftModel.dll
+C:\SANTI\UNIVERSIDAD\TransitSoft\TransitSoftModel\bin\Debug\TransitSoftModel.pdb
+C:\SANTI\UNIVERSIDAD\TransitSoft\TransitSoftModel\obj\Debug\TransitSoftModel.csproj.AssemblyReference.cache
+C:\SANTI\UNIVERSIDAD\TransitSoft\TransitSoftModel\obj\Debug\TransitSoftModel.csproj.CoreCompileInputs.cache
+C:\SANTI\UNIVERSIDAD\TransitSoft\TransitSoftModel\obj\Debug\TransitSoftModel.dll
+C:\SANTI\UNIVERSIDAD\TransitSoft\TransitSoftModel\obj\Debug\TransitSoftModel.pdb

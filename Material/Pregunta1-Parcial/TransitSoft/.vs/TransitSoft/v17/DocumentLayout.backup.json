@@ -1,0 +1,190 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\SANTI\\UNIVERSIDAD\\6to Ciclo\\TransitSoft\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{6FB65981-C92A-446D-96C5-2A939A7AB6D4}|TransitSoftWA\\TransitSoftWA.csproj|c:\\santi\\universidad\\6to ciclo\\transitsoft\\transitsoftwa\\asignarvehiculosapropietario.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FB65981-C92A-446D-96C5-2A939A7AB6D4}|TransitSoftWA\\TransitSoftWA.csproj|solutionrelative:transitsoftwa\\asignarvehiculosapropietario.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FB65981-C92A-446D-96C5-2A939A7AB6D4}|TransitSoftWA\\TransitSoftWA.csproj|c:\\santi\\universidad\\6to ciclo\\transitsoft\\transitsoftwa\\asignarvehiculosapropietario.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6FB65981-C92A-446D-96C5-2A939A7AB6D4}|TransitSoftWA\\TransitSoftWA.csproj|solutionrelative:transitsoftwa\\asignarvehiculosapropietario.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FB65981-C92A-446D-96C5-2A939A7AB6D4}|TransitSoftWA\\TransitSoftWA.csproj|c:\\santi\\universidad\\6to ciclo\\transitsoft\\transitsoftwa\\listarvehiculosdepropietario.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6FB65981-C92A-446D-96C5-2A939A7AB6D4}|TransitSoftWA\\TransitSoftWA.csproj|solutionrelative:transitsoftwa\\listarvehiculosdepropietario.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1CA3C46-8F9A-4E2F-AAA0-0045767293DE}|TransitSoftBusiness\\TransitSoftBusiness.csproj|c:\\santi\\universidad\\6to ciclo\\transitsoft\\transitsoftbusiness\\boi\\propietarioboimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CA3C46-8F9A-4E2F-AAA0-0045767293DE}|TransitSoftBusiness\\TransitSoftBusiness.csproj|solutionrelative:transitsoftbusiness\\boi\\propietarioboimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1CA3C46-8F9A-4E2F-AAA0-0045767293DE}|TransitSoftBusiness\\TransitSoftBusiness.csproj|c:\\santi\\universidad\\6to ciclo\\transitsoft\\transitsoftbusiness\\bo\\ipropietariobo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CA3C46-8F9A-4E2F-AAA0-0045767293DE}|TransitSoftBusiness\\TransitSoftBusiness.csproj|solutionrelative:transitsoftbusiness\\bo\\ipropietariobo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1CA3C46-8F9A-4E2F-AAA0-0045767293DE}|TransitSoftBusiness\\TransitSoftBusiness.csproj|c:\\santi\\universidad\\6to ciclo\\transitsoft\\transitsoftbusiness\\boi\\vehiculoboimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CA3C46-8F9A-4E2F-AAA0-0045767293DE}|TransitSoftBusiness\\TransitSoftBusiness.csproj|solutionrelative:transitsoftbusiness\\boi\\vehiculoboimpl.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E1CA3C46-8F9A-4E2F-AAA0-0045767293DE}|TransitSoftBusiness\\TransitSoftBusiness.csproj|c:\\santi\\universidad\\6to ciclo\\transitsoft\\transitsoftbusiness\\bo\\ivehiculobo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E1CA3C46-8F9A-4E2F-AAA0-0045767293DE}|TransitSoftBusiness\\TransitSoftBusiness.csproj|solutionrelative:transitsoftbusiness\\bo\\ivehiculobo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FB65981-C92A-446D-96C5-2A939A7AB6D4}|TransitSoftWA\\TransitSoftWA.csproj|c:\\santi\\universidad\\6to ciclo\\transitsoft\\transitsoftwa\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{6FB65981-C92A-446D-96C5-2A939A7AB6D4}|TransitSoftWA\\TransitSoftWA.csproj|solutionrelative:transitsoftwa\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6FB65981-C92A-446D-96C5-2A939A7AB6D4}|TransitSoftWA\\TransitSoftWA.csproj|c:\\santi\\universidad\\6to ciclo\\transitsoft\\transitsoftwa\\listarvehiculosdepropietario.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{6FB65981-C92A-446D-96C5-2A939A7AB6D4}|TransitSoftWA\\TransitSoftWA.csproj|solutionrelative:transitsoftwa\\listarvehiculosdepropietario.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6F61966A-F5E1-4432-92E1-9E461E57CFDA}|TransitSoftDBManager\\TransitSoftDBManager.csproj|c:\\santi\\universidad\\6to ciclo\\transitsoft\\transitsoftdbmanager\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6F61966A-F5E1-4432-92E1-9E461E57CFDA}|TransitSoftDBManager\\TransitSoftDBManager.csproj|solutionrelative:transitsoftdbmanager\\dbmanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\SANTI\\UNIVERSIDAD\\6to Ciclo\\TransitSoft\\TransitSoftWA\\Web.config",
+              "RelativeDocumentMoniker": "TransitSoftWA\\Web.config",
+              "ToolTip": "C:\\SANTI\\UNIVERSIDAD\\6to Ciclo\\TransitSoft\\TransitSoftWA\\Web.config",
+              "RelativeToolTip": "TransitSoftWA\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2025-10-22T03:10:06.104Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PropietarioBOImpl.cs",
+              "DocumentMoniker": "C:\\SANTI\\UNIVERSIDAD\\6to Ciclo\\TransitSoft\\TransitSoftBusiness\\BOI\\PropietarioBOImpl.cs",
+              "RelativeDocumentMoniker": "TransitSoftBusiness\\BOI\\PropietarioBOImpl.cs",
+              "ToolTip": "C:\\SANTI\\UNIVERSIDAD\\6to Ciclo\\TransitSoft\\TransitSoftBusiness\\BOI\\PropietarioBOImpl.cs",
+              "RelativeToolTip": "TransitSoftBusiness\\BOI\\PropietarioBOImpl.cs",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwCMAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T02:49:24.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "IPropietarioBO.cs",
+              "DocumentMoniker": "C:\\SANTI\\UNIVERSIDAD\\6to Ciclo\\TransitSoft\\TransitSoftBusiness\\BO\\IPropietarioBO.cs",
+              "RelativeDocumentMoniker": "TransitSoftBusiness\\BO\\IPropietarioBO.cs",
+              "ToolTip": "C:\\SANTI\\UNIVERSIDAD\\6to Ciclo\\TransitSoft\\TransitSoftBusiness\\BO\\IPropietarioBO.cs",
+              "RelativeToolTip": "TransitSoftBusiness\\BO\\IPropietarioBO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T02:49:08.18Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ListarVehiculosDePropietario.aspx",
+              "DocumentMoniker": "C:\\SANTI\\UNIVERSIDAD\\6to Ciclo\\TransitSoft\\TransitSoftWA\\ListarVehiculosDePropietario.aspx",
+              "RelativeDocumentMoniker": "TransitSoftWA\\ListarVehiculosDePropietario.aspx",
+              "ToolTip": "C:\\SANTI\\UNIVERSIDAD\\6to Ciclo\\TransitSoft\\TransitSoftWA\\ListarVehiculosDePropietario.aspx",
+              "RelativeToolTip": "TransitSoftWA\\ListarVehiculosDePropietario.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-22T02:48:11.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ListarVehiculosDePropietario.aspx.cs",
+              "DocumentMoniker": "C:\\SANTI\\UNIVERSIDAD\\6to Ciclo\\TransitSoft\\TransitSoftWA\\ListarVehiculosDePropietario.aspx.cs",
+              "RelativeDocumentMoniker": "TransitSoftWA\\ListarVehiculosDePropietario.aspx.cs",
+              "ToolTip": "C:\\SANTI\\UNIVERSIDAD\\6to Ciclo\\TransitSoft\\TransitSoftWA\\ListarVehiculosDePropietario.aspx.cs",
+              "RelativeToolTip": "TransitSoftWA\\ListarVehiculosDePropietario.aspx.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAAAgwC8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T02:48:03.728Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "AsignarVehiculosAPropietario.aspx.cs",
+              "DocumentMoniker": "C:\\SANTI\\UNIVERSIDAD\\6to Ciclo\\TransitSoft\\TransitSoftWA\\AsignarVehiculosAPropietario.aspx.cs",
+              "RelativeDocumentMoniker": "TransitSoftWA\\AsignarVehiculosAPropietario.aspx.cs",
+              "ToolTip": "C:\\SANTI\\UNIVERSIDAD\\6to Ciclo\\TransitSoft\\TransitSoftWA\\AsignarVehiculosAPropietario.aspx.cs*",
+              "RelativeToolTip": "TransitSoftWA\\AsignarVehiculosAPropietario.aspx.cs*",
+              "ViewState": "AgIAAF0AAAAAAAAAAAAuwFYAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T02:47:04.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AsignarVehiculosAPropietario.aspx",
+              "DocumentMoniker": "C:\\SANTI\\UNIVERSIDAD\\6to Ciclo\\TransitSoft\\TransitSoftWA\\AsignarVehiculosAPropietario.aspx",
+              "RelativeDocumentMoniker": "TransitSoftWA\\AsignarVehiculosAPropietario.aspx",
+              "ToolTip": "C:\\SANTI\\UNIVERSIDAD\\6to Ciclo\\TransitSoft\\TransitSoftWA\\AsignarVehiculosAPropietario.aspx",
+              "RelativeToolTip": "TransitSoftWA\\AsignarVehiculosAPropietario.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2025-10-22T02:47:00.16Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IVehiculoBO.cs",
+              "DocumentMoniker": "C:\\SANTI\\UNIVERSIDAD\\6to Ciclo\\TransitSoft\\TransitSoftBusiness\\BO\\IVehiculoBO.cs",
+              "RelativeDocumentMoniker": "TransitSoftBusiness\\BO\\IVehiculoBO.cs",
+              "ToolTip": "C:\\SANTI\\UNIVERSIDAD\\6to Ciclo\\TransitSoft\\TransitSoftBusiness\\BO\\IVehiculoBO.cs",
+              "RelativeToolTip": "TransitSoftBusiness\\BO\\IVehiculoBO.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T02:43:40.989Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "VehiculoBOImpl.cs",
+              "DocumentMoniker": "C:\\SANTI\\UNIVERSIDAD\\6to Ciclo\\TransitSoft\\TransitSoftBusiness\\BOI\\VehiculoBOImpl.cs",
+              "RelativeDocumentMoniker": "TransitSoftBusiness\\BOI\\VehiculoBOImpl.cs",
+              "ToolTip": "C:\\SANTI\\UNIVERSIDAD\\6to Ciclo\\TransitSoft\\TransitSoftBusiness\\BOI\\VehiculoBOImpl.cs",
+              "RelativeToolTip": "TransitSoftBusiness\\BOI\\VehiculoBOImpl.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAswBMAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T02:43:34.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "DBManager.cs",
+              "DocumentMoniker": "C:\\SANTI\\UNIVERSIDAD\\6to Ciclo\\TransitSoft\\TransitSoftDBManager\\DBManager.cs",
+              "RelativeDocumentMoniker": "TransitSoftDBManager\\DBManager.cs",
+              "ToolTip": "C:\\SANTI\\UNIVERSIDAD\\6to Ciclo\\TransitSoft\\TransitSoftDBManager\\DBManager.cs",
+              "RelativeToolTip": "TransitSoftDBManager\\DBManager.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAzwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-10-22T02:43:13.539Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
