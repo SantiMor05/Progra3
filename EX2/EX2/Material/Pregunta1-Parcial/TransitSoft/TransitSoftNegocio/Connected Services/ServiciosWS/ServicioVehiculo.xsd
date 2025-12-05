@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://services.transitsoft.pucp.edu.pe/" targetNamespace="http://services.transitsoft.pucp.edu.pe/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="eliminarVehiculo" type="tns:eliminarVehiculo" />
+  <xs:element name="eliminarVehiculoResponse" type="tns:eliminarVehiculoResponse" />
+  <xs:element name="insertarVehiculo" type="tns:insertarVehiculo" />
+  <xs:element name="insertarVehiculoResponse" type="tns:insertarVehiculoResponse" />
+  <xs:element name="listarTodosVehiculos" type="tns:listarTodosVehiculos" />
+  <xs:element name="listarTodosVehiculosResponse" type="tns:listarTodosVehiculosResponse" />
+  <xs:element name="modificarVehiculo" type="tns:modificarVehiculo" />
+  <xs:element name="modificarVehiculoResponse" type="tns:modificarVehiculoResponse" />
+  <xs:element name="obtenerVehiculoPorId" type="tns:obtenerVehiculoPorId" />
+  <xs:element name="obtenerVehiculoPorIdResponse" type="tns:obtenerVehiculoPorIdResponse" />
+  <xs:complexType name="listarTodosVehiculos">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="listarTodosVehiculosResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:vehiculo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="vehiculo">
+    <xs:sequence>
+      <xs:element name="anho" type="xs:int" />
+      <xs:element name="id" type="xs:int" />
+      <xs:element minOccurs="0" name="marca" type="xs:string" />
+      <xs:element minOccurs="0" name="modelo" type="xs:string" />
+      <xs:element minOccurs="0" name="placa" type="xs:string" />
+      <xs:element minOccurs="0" name="propietario" type="tns:propietario" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="propietario">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="apellidos" type="xs:string" />
+      <xs:element minOccurs="0" name="direccion" type="xs:string" />
+      <xs:element minOccurs="0" name="dni" type="xs:string" />
+      <xs:element name="id" type="xs:int" />
+      <xs:element minOccurs="0" name="nombres" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="insertarVehiculo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="vehiculo" type="tns:vehiculo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="insertarVehiculoResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="obtenerVehiculoPorId">
+    <xs:sequence>
+      <xs:element name="id" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="obtenerVehiculoPorIdResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:vehiculo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="eliminarVehiculo">
+    <xs:sequence>
+      <xs:element name="id" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="eliminarVehiculoResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="modificarVehiculo">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="vehiculo" type="tns:vehiculo" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="modificarVehiculoResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

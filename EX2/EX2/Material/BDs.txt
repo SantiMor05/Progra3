@@ -1,0 +1,38 @@
+//Para JAVA
+
+//Mysql
+
+driver=com.mysql.cj.jdbc.Driver
+tipo_de_driver=jdbc:mysql
+base_de_datos=transitsoft
+nombre_de_host=final-mysql.c1ee2qi20ggz.us-east-1.rds.amazonaws.com
+puerto=3306
+usuario=admin
+contrasenha=gejjr1h9xkp8z5oFshHdJA==
+Descifrada(prog31inf30)
+
+//MSSQL
+
+driver=com.microsoft.sqlserver.jdbc.SQLServerDriver
+tipo_de_driver=jdbc:sqlserver
+base_de_datos=transitsoft
+nombre_de_host=final-mssql.c1ee2qi20ggz.us-east-1.rds.amazonaws.com
+puerto=1433
+usuario=admin
+contrasenha=gejjr1h9xkp8z5oFshHdJA==
+
+Descifrada( prog31inf30)
+
+
+//PARA C#
+
+<appSettings>
+	<add key="inbox.path" value="C:\SANTI\UNIVERSIDAD\6to Ciclo\Proga 3\Labs\Lab6\25-2\Lab06_20231523\Lab06_20231523\Lab06-Estudiante\inbox"/>
+	<!-- Configuracion para SQL Server -->
+	<add key="tipoDeBaseDeDatos" value="MSSQL" />
+	<add key="nombreDeHost" value="parcialmssql.crbuvhnvfhpf.us-east-1.rds.amazonaws.com"/>
+	<add key="puerto" value="1433" />
+	<add key="baseDeDatos" value="transitsoft" />
+	<add key="usuario" value="admin" />
+	<add key="contraseña" value="cAByAG8AZwAzADEAaQBuAGYAMwAwAA=="/>
+</appSettings>

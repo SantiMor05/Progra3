@@ -1,0 +1,7 @@
+pe\edu\pucp\transitsoft\db\util\MotorDeBaseDeDatos.class
+pe\edu\pucp\transitsoft\db\Prueba.class
+pe\edu\pucp\transitsoft\db\util\Cifrado.class
+pe\edu\pucp\transitsoft\db\DBManager.class
+pe\edu\pucp\transitsoft\db\DBManagerMSSQL.class
+pe\edu\pucp\transitsoft\db\DBManagerMySQL.class
+pe\edu\pucp\transitsoft\db\DBManagerOracle.class

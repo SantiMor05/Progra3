@@ -1,0 +1,12 @@
+pe\edu\pucp\transitsoft\bo\CapturaBO.class
+pe\edu\pucp\transitsoft\bo\CamaraBO.class
+pe\edu\pucp\transitsoft\bo\InfraccionBOImpl.class
+pe\edu\pucp\transitsoft\bo\PropietarioBOImpl.class
+pe\edu\pucp\transitsoft\bo\mappers\Mapper.class
+pe\edu\pucp\transitsoft\bo\CapturaBOImpl.class
+pe\edu\pucp\transitsoft\bo\mappers\CapturaToInfraccionMapper.class
+pe\edu\pucp\transitsoft\bo\CamaraBOImpl.class
+pe\edu\pucp\transitsoft\bo\PropietarioBO.class
+pe\edu\pucp\transitsoft\bo\InfraccionBO.class
+pe\edu\pucp\transitsoft\bo\VehiculoBO.class
+pe\edu\pucp\transitsoft\bo\VehiculoBOImpl.class

@@ -1,0 +1,7 @@
+C:\SANTI\UNIVERSIDAD\6to Ciclo\Proga 3\Labs\Lab11\Pregunta1-Parcial\TransitSoft\TransitSoftNegocio\bin\Debug\TransitSoftNegocio.dll.config
+C:\SANTI\UNIVERSIDAD\6to Ciclo\Proga 3\Labs\Lab11\Pregunta1-Parcial\TransitSoft\TransitSoftNegocio\bin\Debug\TransitSoftNegocio.dll
+C:\SANTI\UNIVERSIDAD\6to Ciclo\Proga 3\Labs\Lab11\Pregunta1-Parcial\TransitSoft\TransitSoftNegocio\bin\Debug\TransitSoftNegocio.pdb
+C:\SANTI\UNIVERSIDAD\6to Ciclo\Proga 3\Labs\Lab11\Pregunta1-Parcial\TransitSoft\TransitSoftNegocio\obj\Debug\TransitSoftNegocio.csproj.AssemblyReference.cache
+C:\SANTI\UNIVERSIDAD\6to Ciclo\Proga 3\Labs\Lab11\Pregunta1-Parcial\TransitSoft\TransitSoftNegocio\obj\Debug\TransitSoftNegocio.csproj.CoreCompileInputs.cache
+C:\SANTI\UNIVERSIDAD\6to Ciclo\Proga 3\Labs\Lab11\Pregunta1-Parcial\TransitSoft\TransitSoftNegocio\obj\Debug\TransitSoftNegocio.dll
+C:\SANTI\UNIVERSIDAD\6to Ciclo\Proga 3\Labs\Lab11\Pregunta1-Parcial\TransitSoft\TransitSoftNegocio\obj\Debug\TransitSoftNegocio.pdb

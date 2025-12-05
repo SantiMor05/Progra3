@@ -1,0 +1,7 @@
+pe\edu\pucp\transitsoft\services\camara\ServicioInfraccion.class
+pe\edu\pucp\transitsoft\services\camara\ServicioPropietario.class
+pe\edu\pucp\transitsoft\services\camara\ServicioVehiculo.class
+pe\edu\pucp\transitsoft\services\JakartaRestConfiguration.class
+pe\edu\pucp\transitsoft\services\camara\ServicioCamara.class
+pe\edu\pucp\transitsoft\services\camara\ServicioCaptura.class
+pe\edu\pucp\transitsoft\services\resources\JakartaEE10Resource.class

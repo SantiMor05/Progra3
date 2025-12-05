@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<definitions xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsp="http://www.w3.org/ns/ws-policy" xmlns:wsp1_2="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:tns="http://services.transitsoft.pucp.edu.pe/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" name="ServicioCamara" targetNamespace="http://services.transitsoft.pucp.edu.pe/" xmlns="http://schemas.xmlsoap.org/wsdl/">
+  <types>
+    <xsd:schema>
+      <xsd:import schemaLocation="http://localhost:8080/TransitSoftWA/ServicioCamara?xsd=1" namespace="http://services.transitsoft.pucp.edu.pe/" />
+    </xsd:schema>
+  </types>
+  <message name="obtenerCamaraPorId">
+    <part name="parameters" element="tns:obtenerCamaraPorId" />
+  </message>
+  <message name="obtenerCamaraPorIdResponse">
+    <part name="parameters" element="tns:obtenerCamaraPorIdResponse" />
+  </message>
+  <message name="listarTodosCamara">
+    <part name="parameters" element="tns:listarTodosCamara" />
+  </message>
+  <message name="listarTodosCamaraResponse">
+    <part name="parameters" element="tns:listarTodosCamaraResponse" />
+  </message>
+  <message name="insertarCamara">
+    <part name="parameters" element="tns:insertarCamara" />
+  </message>
+  <message name="insertarCamaraResponse">
+    <part name="parameters" element="tns:insertarCamaraResponse" />
+  </message>
+  <message name="modificarCamara">
+    <part name="parameters" element="tns:modificarCamara" />
+  </message>
+  <message name="modificarCamaraResponse">
+    <part name="parameters" element="tns:modificarCamaraResponse" />
+  </message>
+  <message name="eliminarCamara">
+    <part name="parameters" element="tns:eliminarCamara" />
+  </message>
+  <message name="eliminarCamaraResponse">
+    <part name="parameters" element="tns:eliminarCamaraResponse" />
+  </message>
+  <portType name="ServicioCamara">
+    <operation name="obtenerCamaraPorId">
+      <input wsam:Action="http://services.transitsoft.pucp.edu.pe/ServicioCamara/obtenerCamaraPorIdRequest" message="tns:obtenerCamaraPorId" />
+      <output wsam:Action="http://services.transitsoft.pucp.edu.pe/ServicioCamara/obtenerCamaraPorIdResponse" message="tns:obtenerCamaraPorIdResponse" />
+    </operation>
+    <operation name="listarTodosCamara">
+      <input wsam:Action="http://services.transitsoft.pucp.edu.pe/ServicioCamara/listarTodosCamaraRequest" message="tns:listarTodosCamara" />
+      <output wsam:Action="http://services.transitsoft.pucp.edu.pe/ServicioCamara/listarTodosCamaraResponse" message="tns:listarTodosCamaraResponse" />
+    </operation>
+    <operation name="insertarCamara">
+      <input wsam:Action="http://services.transitsoft.pucp.edu.pe/ServicioCamara/insertarCamaraRequest" message="tns:insertarCamara" />
+      <output wsam:Action="http://services.transitsoft.pucp.edu.pe/ServicioCamara/insertarCamaraResponse" message="tns:insertarCamaraResponse" />
+    </operation>
+    <operation name="modificarCamara">
+      <input wsam:Action="http://services.transitsoft.pucp.edu.pe/ServicioCamara/modificarCamaraRequest" message="tns:modificarCamara" />
+      <output wsam:Action="http://services.transitsoft.pucp.edu.pe/ServicioCamara/modificarCamaraResponse" message="tns:modificarCamaraResponse" />
+    </operation>
+    <operation name="eliminarCamara">
+      <input wsam:Action="http://services.transitsoft.pucp.edu.pe/ServicioCamara/eliminarCamaraRequest" message="tns:eliminarCamara" />
+      <output wsam:Action="http://services.transitsoft.pucp.edu.pe/ServicioCamara/eliminarCamaraResponse" message="tns:eliminarCamaraResponse" />
+    </operation>
+  </portType>
+  <binding name="ServicioCamaraPortBinding" type="tns:ServicioCamara">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <operation name="obtenerCamaraPorId">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="listarTodosCamara">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="insertarCamara">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="modificarCamara">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+    <operation name="eliminarCamara">
+      <soap:operation soapAction="" />
+      <input>
+        <soap:body use="literal" />
+      </input>
+      <output>
+        <soap:body use="literal" />
+      </output>
+    </operation>
+  </binding>
+  <service name="ServicioCamara">
+    <port name="ServicioCamaraPort" binding="tns:ServicioCamaraPortBinding">
+      <soap:address location="http://localhost:8080/TransitSoftWA/ServicioCamara" />
+    </port>
+  </service>
+</definitions>

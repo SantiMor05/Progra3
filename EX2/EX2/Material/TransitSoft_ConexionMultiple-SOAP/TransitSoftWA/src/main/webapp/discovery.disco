@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<discovery xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+           xmlns="http://schemas.xmlsoap.org/disco/">
+     
+
+    <contractRef xmlns="http://schemas.xmlsoap.org/disco/scl/"
+                 ref="http://localhost:8080/TransitSoftWA/ServicioInfraccion?wsdl" />
+    
+    <contractRef xmlns="http://schemas.xmlsoap.org/disco/scl/"
+                 ref="	http://localhost:8080/TransitSoftWA/ServicioPropietario?wsdl" />
+    
+
+    <contractRef xmlns="http://schemas.xmlsoap.org/disco/scl/"
+                 ref="http://localhost:8080/TransitSoftWA/ServicioCamara?wsdl" />
+
+    <contractRef xmlns="http://schemas.xmlsoap.org/disco/scl/"
+                 ref="http://localhost:8080/TransitSoftWA/ServicioCaptura?wsdl" />
+	
+    <contractRef xmlns="http://schemas.xmlsoap.org/disco/scl/"
+                 ref="	http://localhost:8080/TransitSoftWA/ServicioVehiculo?wsdl" />
+   
+               
+</discovery>

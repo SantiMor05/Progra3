@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://services.transitsoft.pucp.edu.pe/" targetNamespace="http://services.transitsoft.pucp.edu.pe/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="actualizarCaptura" type="tns:actualizarCaptura" />
+  <xs:element name="actualizarCapturaResponse" type="tns:actualizarCapturaResponse" />
+  <xs:element name="eliminarCaptura" type="tns:eliminarCaptura" />
+  <xs:element name="eliminarCapturaResponse" type="tns:eliminarCapturaResponse" />
+  <xs:element name="insertarCaptura" type="tns:insertarCaptura" />
+  <xs:element name="insertarCapturaResponse" type="tns:insertarCapturaResponse" />
+  <xs:element name="listarTodasCapturas" type="tns:listarTodasCapturas" />
+  <xs:element name="listarTodasCapturasResponse" type="tns:listarTodasCapturasResponse" />
+  <xs:element name="modificarCaptura" type="tns:modificarCaptura" />
+  <xs:element name="modificarCapturaResponse" type="tns:modificarCapturaResponse" />
+  <xs:element name="obtenerCapturaPorId" type="tns:obtenerCapturaPorId" />
+  <xs:element name="obtenerCapturaPorIdResponse" type="tns:obtenerCapturaPorIdResponse" />
+  <xs:element name="obtenerCapturasConExcesoDeVelocidad" type="tns:obtenerCapturasConExcesoDeVelocidad" />
+  <xs:element name="obtenerCapturasConExcesoDeVelocidadResponse" type="tns:obtenerCapturasConExcesoDeVelocidadResponse" />
+  <xs:complexType name="insertarCaptura">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="captura" type="tns:captura" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="captura">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="camara" type="tns:camara" />
+      <xs:element minOccurs="0" name="estado" type="tns:estadoCaptura" />
+      <xs:element minOccurs="0" name="fechaCaptura" type="xs:dateTime" />
+      <xs:element name="id" type="xs:int" />
+      <xs:element minOccurs="0" name="placa" type="xs:string" />
+      <xs:element minOccurs="0" name="vehiculo" type="tns:vehiculo" />
+      <xs:element name="velocidad" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="camara">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="codigoSerie" type="xs:string" />
+      <xs:element name="id" type="xs:int" />
+      <xs:element name="latitud" type="xs:long" />
+      <xs:element name="longitud" type="xs:long" />
+      <xs:element minOccurs="0" name="modelo" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="vehiculo">
+    <xs:sequence>
+      <xs:element name="anho" type="xs:int" />
+      <xs:element name="id" type="xs:int" />
+      <xs:element minOccurs="0" name="marca" type="xs:string" />
+      <xs:element minOccurs="0" name="modelo" type="xs:string" />
+      <xs:element minOccurs="0" name="placa" type="xs:string" />
+      <xs:element minOccurs="0" name="propietario" type="tns:propietario" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="propietario">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="apellidos" type="xs:string" />
+      <xs:element minOccurs="0" name="direccion" type="xs:string" />
+      <xs:element minOccurs="0" name="dni" type="xs:string" />
+      <xs:element name="id" type="xs:int" />
+      <xs:element minOccurs="0" name="nombres" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="insertarCapturaResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="actualizarCaptura">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="captura" type="tns:captura" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="actualizarCapturaResponse">
+    <xs:sequence>
+      <xs:element name="return" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="obtenerCapturasConExcesoDeVelocidad">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="obtenerCapturasConExcesoDeVelocidadResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:captura" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="obtenerCapturaPorId">
+    <xs:sequence>
+      <xs:element name="id" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="obtenerCapturaPorIdResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:captura" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarTodasCapturas">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="listarTodasCapturasResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:captura" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="eliminarCaptura">
+    <xs:sequence>
+      <xs:element name="id" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="eliminarCapturaResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="modificarCaptura">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="captura" type="tns:captura" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="modificarCapturaResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:simpleType name="estadoCaptura">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="REGISTRADO" />
+      <xs:enumeration value="PROCESADO" />
+    </xs:restriction>
+  </xs:simpleType>
+</xs:schema>

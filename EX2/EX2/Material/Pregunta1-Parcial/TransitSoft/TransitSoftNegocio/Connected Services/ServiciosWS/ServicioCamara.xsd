@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://services.transitsoft.pucp.edu.pe/" targetNamespace="http://services.transitsoft.pucp.edu.pe/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="eliminarCamara" type="tns:eliminarCamara" />
+  <xs:element name="eliminarCamaraResponse" type="tns:eliminarCamaraResponse" />
+  <xs:element name="insertarCamara" type="tns:insertarCamara" />
+  <xs:element name="insertarCamaraResponse" type="tns:insertarCamaraResponse" />
+  <xs:element name="listarTodosCamara" type="tns:listarTodosCamara" />
+  <xs:element name="listarTodosCamaraResponse" type="tns:listarTodosCamaraResponse" />
+  <xs:element name="modificarCamara" type="tns:modificarCamara" />
+  <xs:element name="modificarCamaraResponse" type="tns:modificarCamaraResponse" />
+  <xs:element name="obtenerCamaraPorId" type="tns:obtenerCamaraPorId" />
+  <xs:element name="obtenerCamaraPorIdResponse" type="tns:obtenerCamaraPorIdResponse" />
+  <xs:complexType name="modificarCamara">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="camara" type="tns:camara" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="camara">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="codigoSerie" type="xs:string" />
+      <xs:element name="id" type="xs:int" />
+      <xs:element name="latitud" type="xs:long" />
+      <xs:element name="longitud" type="xs:long" />
+      <xs:element minOccurs="0" name="modelo" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="modificarCamaraResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="eliminarCamara">
+    <xs:sequence>
+      <xs:element name="id" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="eliminarCamaraResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarTodosCamara">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="listarTodosCamaraResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:camara" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="insertarCamara">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="camara" type="tns:camara" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="insertarCamaraResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="obtenerCamaraPorId">
+    <xs:sequence>
+      <xs:element name="id" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="obtenerCamaraPorIdResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:camara" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

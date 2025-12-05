@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://services.transitsoft.pucp.edu.pe/" targetNamespace="http://services.transitsoft.pucp.edu.pe/" version="1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="eliminarPropietario" type="tns:eliminarPropietario" />
+  <xs:element name="eliminarPropietarioResponse" type="tns:eliminarPropietarioResponse" />
+  <xs:element name="insertarPropietario" type="tns:insertarPropietario" />
+  <xs:element name="insertarPropietarioResponse" type="tns:insertarPropietarioResponse" />
+  <xs:element name="listarTodosPropietarios" type="tns:listarTodosPropietarios" />
+  <xs:element name="listarTodosPropietariosResponse" type="tns:listarTodosPropietariosResponse" />
+  <xs:element name="modificarPropietario" type="tns:modificarPropietario" />
+  <xs:element name="modificarPropietarioResponse" type="tns:modificarPropietarioResponse" />
+  <xs:element name="obtenerPropietarioPorId" type="tns:obtenerPropietarioPorId" />
+  <xs:element name="obtenerPropietarioPorIdResponse" type="tns:obtenerPropietarioPorIdResponse" />
+  <xs:complexType name="insertarPropietario">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="propietario" type="tns:propietario" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="propietario">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="apellidos" type="xs:string" />
+      <xs:element minOccurs="0" name="direccion" type="xs:string" />
+      <xs:element minOccurs="0" name="dni" type="xs:string" />
+      <xs:element name="id" type="xs:int" />
+      <xs:element minOccurs="0" name="nombres" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="insertarPropietarioResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="listarTodosPropietarios">
+    <xs:sequence />
+  </xs:complexType>
+  <xs:complexType name="listarTodosPropietariosResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="return" type="tns:propietario" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="eliminarPropietario">
+    <xs:sequence>
+      <xs:element name="id" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="eliminarPropietarioResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="obtenerPropietarioPorId">
+    <xs:sequence>
+      <xs:element name="id" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="obtenerPropietarioPorIdResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="tns:propietario" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="modificarPropietario">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="propietario" type="tns:propietario" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:complexType name="modificarPropietarioResponse">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="return" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+</xs:schema>

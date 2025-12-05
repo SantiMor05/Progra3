@@ -1,0 +1,11 @@
+C:\SANTI\UNIVERSIDAD\6to Ciclo\Proga 3\Labs\Lab11\Pregunta1-Parcial\TransitSoft\PruebaConexionSOAP\bin\Debug\PruebaConexionSOAP.exe.config
+C:\SANTI\UNIVERSIDAD\6to Ciclo\Proga 3\Labs\Lab11\Pregunta1-Parcial\TransitSoft\PruebaConexionSOAP\bin\Debug\PruebaConexionSOAP.exe
+C:\SANTI\UNIVERSIDAD\6to Ciclo\Proga 3\Labs\Lab11\Pregunta1-Parcial\TransitSoft\PruebaConexionSOAP\bin\Debug\PruebaConexionSOAP.pdb
+C:\SANTI\UNIVERSIDAD\6to Ciclo\Proga 3\Labs\Lab11\Pregunta1-Parcial\TransitSoft\PruebaConexionSOAP\bin\Debug\TransitSoftNegocio.dll
+C:\SANTI\UNIVERSIDAD\6to Ciclo\Proga 3\Labs\Lab11\Pregunta1-Parcial\TransitSoft\PruebaConexionSOAP\bin\Debug\TransitSoftNegocio.pdb
+C:\SANTI\UNIVERSIDAD\6to Ciclo\Proga 3\Labs\Lab11\Pregunta1-Parcial\TransitSoft\PruebaConexionSOAP\bin\Debug\TransitSoftNegocio.dll.config
+C:\SANTI\UNIVERSIDAD\6to Ciclo\Proga 3\Labs\Lab11\Pregunta1-Parcial\TransitSoft\PruebaConexionSOAP\obj\Debug\PruebaConexionSOAP.csproj.AssemblyReference.cache
+C:\SANTI\UNIVERSIDAD\6to Ciclo\Proga 3\Labs\Lab11\Pregunta1-Parcial\TransitSoft\PruebaConexionSOAP\obj\Debug\PruebaConexionSOAP.csproj.CoreCompileInputs.cache
+C:\SANTI\UNIVERSIDAD\6to Ciclo\Proga 3\Labs\Lab11\Pregunta1-Parcial\TransitSoft\PruebaConexionSOAP\obj\Debug\PruebaCo.EC479533.Up2Date
+C:\SANTI\UNIVERSIDAD\6to Ciclo\Proga 3\Labs\Lab11\Pregunta1-Parcial\TransitSoft\PruebaConexionSOAP\obj\Debug\PruebaConexionSOAP.exe
+C:\SANTI\UNIVERSIDAD\6to Ciclo\Proga 3\Labs\Lab11\Pregunta1-Parcial\TransitSoft\PruebaConexionSOAP\obj\Debug\PruebaConexionSOAP.pdb
